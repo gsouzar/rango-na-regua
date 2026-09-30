@@ -1,0 +1,116 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <androidx.appcompat.widget.Toolbar
+        android:id="@+id/toolbarDetalhe"
+        style="@style/ToolbarVerde"
+        android:layout_width="match_parent"
+        android:layout_height="?attr/actionBarSize"
+        app:navigationIcon="@android:drawable/ic_menu_revert"
+        app:title="@string/detalhe_titulo" />
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:padding="20dp">
+
+            <TextView
+                android:id="@+id/txtDetalheNome"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textColor="@color/texto"
+                android:textSize="24sp"
+                android:textStyle="bold"
+                tools:text="Pastel do Seu Jorge" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="20dp"
+                android:text="@string/rotulo_categoria"
+                android:textColor="@color/texto_suave"
+                android:textSize="12sp" />
+
+            <TextView
+                android:id="@+id/txtDetalheCategoria"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textColor="@color/texto"
+                android:textSize="16sp"
+                tools:text="Salgado" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="14dp"
+                android:text="@string/rotulo_preco"
+                android:textColor="@color/texto_suave"
+                android:textSize="12sp" />
+
+            <TextView
+                android:id="@+id/txtDetalhePreco"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textColor="@color/texto"
+                android:textSize="16sp"
+                tools:text="R$ 9,50" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="14dp"
+                android:text="@string/rotulo_votos"
+                android:textColor="@color/texto_suave"
+                android:textSize="12sp" />
+
+            <TextView
+                android:id="@+id/txtDetalheVotos"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textColor="@color/texto"
+                android:textSize="16sp"
+                tools:text="12 votos" />
+
+            <TextView
+                android:id="@+id/txtDetalheObservacao"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="22dp"
+                android:lineSpacingExtra="4dp"
+                android:textColor="@color/texto"
+                android:textSize="15sp"
+                tools:text="Pastel de carne com queijo e caldo de cana." />
+
+            <com.google.android.material.button.MaterialButton
+                android:id="@+id/btnEditar"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="28dp"
+                android:backgroundTint="@color/verde_escuro"
+                android:text="@string/editar"
+                android:textColor="@color/branco" />
+
+            <com.google.android.material.button.MaterialButton
+                android:id="@+id/btnExcluir"
+                style="@style/Widget.MaterialComponents.Button.OutlinedButton"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="8dp"
+                android:text="@string/excluir"
+                android:textColor="#B3261E"
+                app:strokeColor="#B3261E" />
+
+        </LinearLayout>
+    </ScrollView>
+</LinearLayout>

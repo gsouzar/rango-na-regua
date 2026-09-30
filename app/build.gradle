@@ -1,0 +1,50 @@
+plugins {
+    id 'com.android.application'
+    id 'com.google.gms.google-services'
+}
+
+android {
+    namespace 'br.edu.unisenai.rangonaregua'
+    compileSdk {
+        version = release(36)
+    }
+
+    defaultConfig {
+        applicationId "br.edu.unisenai.rangonaregua"
+        minSdk 33
+        targetSdk 36
+        versionCode 1
+        versionName "1.0"
+    }
+
+    buildTypes {
+        release {
+            minifyEnabled false
+            proguardFiles getDefaultProguardFile('proguard-android-optimize.txt'),
+                          'proguard-rules.pro'
+        }
+    }
+
+    compileOptions {
+        sourceCompatibility = JavaVersion.VERSION_11
+        targetCompatibility = JavaVersion.VERSION_11
+    }
+}
+
+dependencies {
+    implementation 'androidx.appcompat:appcompat:1.6.1'
+    implementation 'androidx.constraintlayout:constraintlayout:2.1.4'
+    implementation 'androidx.coordinatorlayout:coordinatorlayout:1.2.0'
+
+    // A estrela da semana 5. Não vem no SDK base, precisa ser declarada.
+    implementation 'androidx.recyclerview:recyclerview:1.3.2'
+
+    // Toolbar, CardView, FAB e Snackbar
+    implementation 'com.google.android.material:material:1.11.0'
+    implementation 'androidx.activity:activity:1.13.0'
+
+    // Semana 9: Firebase (o BoM cuida das versões)
+    implementation platform('com.google.firebase:firebase-bom:34.18.0')
+    implementation 'com.google.firebase:firebase-firestore'
+    implementation 'com.google.firebase:firebase-auth'
+}

@@ -1,0 +1,362 @@
+1<?xml version="1.0" encoding="utf-8"?>
+2<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+3    package="br.edu.unisenai.rangonaregua"
+4    android:versionCode="1"
+5    android:versionName="1.0" >
+6
+7    <uses-sdk
+8        android:minSdkVersion="33"
+9        android:targetSdkVersion="36" />
+10
+11    <uses-permission android:name="android.permission.INTERNET" />
+11-->C:\Users\gustavor\OneDrive - Rosset & Cia. Ltda\Documentos\RangoNaRegua\rango\app\src\main\AndroidManifest.xml:4:5-67
+11-->C:\Users\gustavor\OneDrive - Rosset & Cia. Ltda\Documentos\RangoNaRegua\rango\app\src\main\AndroidManifest.xml:4:22-64
+12    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+12-->[com.google.firebase:firebase-auth:24.2.0] C:\Users\gustavor\.gradle\caches\9.1.0\transforms\ee9ee83afa4ddad470c7ad3a8b0260d7\workspace\transformed\firebase-auth-24.2.0\AndroidManifest.xml:26:5-79
+12-->[com.google.firebase:firebase-auth:24.2.0] C:\Users\gustavor\.gradle\caches\9.1.0\transforms\ee9ee83afa4ddad470c7ad3a8b0260d7\workspace\transformed\firebase-auth-24.2.0\AndroidManifest.xml:26:22-76
+13    <uses-permission android:name="com.google.android.providers.gsf.permission.READ_GSERVICES" />
+13-->[com.google.android.recaptcha:recaptcha:18.6.1] C:\Users\gustavor\.gradle\caches\9.1.0\transforms\8c14ce5747b6b2df54bd6f3fa2f56f91\workspace\transformed\recaptcha-18.6.1\AndroidManifest.xml:9:5-98
+13-->[com.google.android.recaptcha:recaptcha:18.6.1] C:\Users\gustavor\.gradle\caches\9.1.0\transforms\8c14ce5747b6b2df54bd6f3fa2f56f91\workspace\transformed\recaptcha-18.6.1\AndroidManifest.xml:9:22-95
+14
+15    <permission
+15-->[androidx.core:core:1.18.0] C:\Users\gustavor\.gradle\caches\9.1.0\transforms\b54b6643f843d03c46a8332787bb8e6d\workspace\transformed\core-1.18.0\AndroidManifest.xml:22:5-24:47
+16        android:name="br.edu.unisenai.rangonaregua.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION"
+16-->[androidx.core:core:1.18.0] C:\Users\gustavor\.gradle\caches\9.1.0\transforms\b54b6643f843d03c46a8332787bb8e6d\workspace\transformed\core-1.18.0\AndroidManifest.xml:23:9-81
+17        android:protectionLevel="signature" />
+17-->[androidx.core:core:1.18.0] C:\Users\gustavor\.gradle\caches\9.1.0\transforms\b54b6643f843d03c46a8332787bb8e6d\workspace\transformed\core-1.18.0\AndroidManifest.xml:24:9-44
+18
+19    <uses-permission android:name="br.edu.unisenai.rangonaregua.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION" />
+19-->[androidx.core:core:1.18.0] C:\Users\gustavor\.gradle\caches\9.1.0\transforms\b54b6643f843d03c46a8332787bb8e6d\workspace\transformed\core-1.18.0\AndroidManifest.xml:26:5-97
+19-->[androidx.core:core:1.18.0] C:\Users\gustavor\.gradle\caches\9.1.0\transforms\b54b6643f843d03c46a8332787bb8e6d\workspace\transformed\core-1.18.0\AndroidManifest.xml:26:22-94
+20
+21    <application
+21-->C:\Users\gustavor\OneDrive - Rosset & Cia. Ltda\Documentos\RangoNaRegua\rango\app\src\main\AndroidManifest.xml:6:5-26:19
+22        android:allowBackup="true"
+22-->C:\Users\gustavor\OneDrive - Rosset & Cia. Ltda\Documentos\RangoNaRegua\rango\app\src\main\AndroidManifest.xml:7:9-35
+23        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
+23-->[androidx.core:core:1.18.0] C:\Users\gustavor\.gradle\caches\9.1.0\transforms\b54b6643f843d03c46a8332787bb8e6d\workspace\transformed\core-1.18.0\AndroidManifest.xml:28:18-86
+24        android:debuggable="true"
+25        android:extractNativeLibs="false"
+26        android:icon="@drawable/ic_lancador"
+26-->C:\Users\gustavor\OneDrive - Rosset & Cia. Ltda\Documentos\RangoNaRegua\rango\app\src\main\AndroidManifest.xml:8:9-45
+27        android:label="@string/app_name"
+27-->C:\Users\gustavor\OneDrive - Rosset & Cia. Ltda\Documentos\RangoNaRegua\rango\app\src\main\AndroidManifest.xml:9:9-41
+28        android:supportsRtl="true"
+28-->C:\Users\gustavor\OneDrive - Rosset & Cia. Ltda\Documentos\RangoNaRegua\rango\app\src\main\AndroidManifest.xml:10:9-35
+29        android:testOnly="true"
+30        android:theme="@style/Theme.RangoNaRegua" >
+30-->C:\Users\gustavor\OneDrive - Rosset & Cia. Ltda\Documentos\RangoNaRegua\rango\app\src\main\AndroidManifest.xml:11:9-50
+31        <activity
+31-->C:\Users\gustavor\OneDrive - Rosset & Cia. Ltda\Documentos\RangoNaRegua\rango\app\src\main\AndroidManifest.xml:13:9-19:20
+32            android:name="br.edu.unisenai.rangonaregua.LoginActivity"
+32-->C:\Users\gustavor\OneDrive - Rosset & Cia. Ltda\Documentos\RangoNaRegua\rango\app\src\main\AndroidManifest.xml:13:19-48
+33            android:exported="true"
+33-->C:\Users\gustavor\OneDrive - Rosset & Cia. Ltda\Documentos\RangoNaRegua\rango\app\src\main\AndroidManifest.xml:13:49-72
+34            android:windowSoftInputMode="adjustResize" >
+34-->C:\Users\gustavor\OneDrive - Rosset & Cia. Ltda\Documentos\RangoNaRegua\rango\app\src\main\AndroidManifest.xml:14:13-55
+35            <intent-filter>
+35-->C:\Users\gustavor\OneDrive - Rosset & Cia. Ltda\Documentos\RangoNaRegua\rango\app\src\main\AndroidManifest.xml:15:13-18:29
+36                <action android:name="android.intent.action.MAIN" />
+36-->C:\Users\gustavor\OneDrive - Rosset & Cia. Ltda\Documentos\RangoNaRegua\rango\app\src\main\AndroidManifest.xml:16:17-69
+36-->C:\Users\gustavor\OneDrive - Rosset & Cia. Ltda\Documentos\RangoNaRegua\rango\app\src\main\AndroidManifest.xml:16:25-66
+37
+38                <category android:name="android.intent.category.LAUNCHER" />
+38-->C:\Users\gustavor\OneDrive - Rosset & Cia. Ltda\Documentos\RangoNaRegua\rango\app\src\main\AndroidManifest.xml:17:17-77
+38-->C:\Users\gustavor\OneDrive - Rosset & Cia. Ltda\Documentos\RangoNaRegua\rango\app\src\main\AndroidManifest.xml:17:27-74
+39            </intent-filter>
+40        </activity>
+41        <activity
+41-->C:\Users\gustavor\OneDrive - Rosset & Cia. Ltda\Documentos\RangoNaRegua\rango\app\src\main\AndroidManifest.xml:20:9-21:58
+42            android:name="br.edu.unisenai.rangonaregua.CadastroActivity"
+42-->C:\Users\gustavor\OneDrive - Rosset & Cia. Ltda\Documentos\RangoNaRegua\rango\app\src\main\AndroidManifest.xml:20:19-51
+43            android:exported="false"
+43-->C:\Users\gustavor\OneDrive - Rosset & Cia. Ltda\Documentos\RangoNaRegua\rango\app\src\main\AndroidManifest.xml:20:52-76
+44            android:windowSoftInputMode="adjustResize" />
+44-->C:\Users\gustavor\OneDrive - Rosset & Cia. Ltda\Documentos\RangoNaRegua\rango\app\src\main\AndroidManifest.xml:21:13-55
+45        <activity
+45-->C:\Users\gustavor\OneDrive - Rosset & Cia. Ltda\Documentos\RangoNaRegua\rango\app\src\main\AndroidManifest.xml:22:9-75
+46            android:name="br.edu.unisenai.rangonaregua.MainActivity"
+46-->C:\Users\gustavor\OneDrive - Rosset & Cia. Ltda\Documentos\RangoNaRegua\rango\app\src\main\AndroidManifest.xml:22:19-47
+47            android:exported="false" />
+47-->C:\Users\gustavor\OneDrive - Rosset & Cia. Ltda\Documentos\RangoNaRegua\rango\app\src\main\AndroidManifest.xml:22:48-72
+48        <activity
+48-->C:\Users\gustavor\OneDrive - Rosset & Cia. Ltda\Documentos\RangoNaRegua\rango\app\src\main\AndroidManifest.xml:23:9-24:58
+49            android:name="br.edu.unisenai.rangonaregua.NovoLugarActivity"
+49-->C:\Users\gustavor\OneDrive - Rosset & Cia. Ltda\Documentos\RangoNaRegua\rango\app\src\main\AndroidManifest.xml:23:19-52
+50            android:exported="false"
+50-->C:\Users\gustavor\OneDrive - Rosset & Cia. Ltda\Documentos\RangoNaRegua\rango\app\src\main\AndroidManifest.xml:23:53-77
+51            android:windowSoftInputMode="adjustResize" />
+51-->C:\Users\gustavor\OneDrive - Rosset & Cia. Ltda\Documentos\RangoNaRegua\rango\app\src\main\AndroidManifest.xml:24:13-55
+52        <activity
+52-->C:\Users\gustavor\OneDrive - Rosset & Cia. Ltda\Documentos\RangoNaRegua\rango\app\src\main\AndroidManifest.xml:25:9-78
+53            android:name="br.edu.unisenai.rangonaregua.DetalheActivity"
+53-->C:\Users\gustavor\OneDrive - Rosset & Cia. Ltda\Documentos\RangoNaRegua\rango\app\src\main\AndroidManifest.xml:25:19-50
+54            android:exported="false" />
+54-->C:\Users\gustavor\OneDrive - Rosset & Cia. Ltda\Documentos\RangoNaRegua\rango\app\src\main\AndroidManifest.xml:25:51-75
+55        <activity
+55-->[com.google.firebase:firebase-auth:24.2.0] C:\Users\gustavor\.gradle\caches\9.1.0\transforms\ee9ee83afa4ddad470c7ad3a8b0260d7\workspace\transformed\firebase-auth-24.2.0\AndroidManifest.xml:29:9-46:20
+56            android:name="com.google.firebase.auth.internal.GenericIdpActivity"
+56-->[com.google.firebase:firebase-auth:24.2.0] C:\Users\gustavor\.gradle\caches\9.1.0\transforms\ee9ee83afa4ddad470c7ad3a8b0260d7\workspace\transformed\firebase-auth-24.2.0\AndroidManifest.xml:30:13-80
+57            android:excludeFromRecents="true"
+57-->[com.google.firebase:firebase-auth:24.2.0] C:\Users\gustavor\.gradle\caches\9.1.0\transforms\ee9ee83afa4ddad470c7ad3a8b0260d7\workspace\transformed\firebase-auth-24.2.0\AndroidManifest.xml:31:13-46
+58            android:exported="true"
+58-->[com.google.firebase:firebase-auth:24.2.0] C:\Users\gustavor\.gradle\caches\9.1.0\transforms\ee9ee83afa4ddad470c7ad3a8b0260d7\workspace\transformed\firebase-auth-24.2.0\AndroidManifest.xml:32:13-36
+59            android:launchMode="singleTask"
+59-->[com.google.firebase:firebase-auth:24.2.0] C:\Users\gustavor\.gradle\caches\9.1.0\transforms\ee9ee83afa4ddad470c7ad3a8b0260d7\workspace\transformed\firebase-auth-24.2.0\AndroidManifest.xml:33:13-44
+60            android:theme="@android:style/Theme.Translucent.NoTitleBar" >
+60-->[com.google.firebase:firebase-auth:24.2.0] C:\Users\gustavor\.gradle\caches\9.1.0\transforms\ee9ee83afa4ddad470c7ad3a8b0260d7\workspace\transformed\firebase-auth-24.2.0\AndroidManifest.xml:34:13-72
+61            <intent-filter>
+61-->[com.google.firebase:firebase-auth:24.2.0] C:\Users\gustavor\.gradle\caches\9.1.0\transforms\ee9ee83afa4ddad470c7ad3a8b0260d7\workspace\transformed\firebase-auth-24.2.0\AndroidManifest.xml:35:13-45:29
+62                <action android:name="android.intent.action.VIEW" />
+62-->[com.google.firebase:firebase-auth:24.2.0] C:\Users\gustavor\.gradle\caches\9.1.0\transforms\ee9ee83afa4ddad470c7ad3a8b0260d7\workspace\transformed\firebase-auth-24.2.0\AndroidManifest.xml:36:17-69
+62-->[com.google.firebase:firebase-auth:24.2.0] C:\Users\gustavor\.gradle\caches\9.1.0\transforms\ee9ee83afa4ddad470c7ad3a8b0260d7\workspace\transformed\firebase-auth-24.2.0\AndroidManifest.xml:36:25-66
+63
+64                <category android:name="android.intent.category.DEFAULT" />
+64-->[com.google.firebase:firebase-auth:24.2.0] C:\Users\gustavor\.gradle\caches\9.1.0\transforms\ee9ee83afa4ddad470c7ad3a8b0260d7\workspace\transformed\firebase-auth-24.2.0\AndroidManifest.xml:38:17-76
+64-->[com.google.firebase:firebase-auth:24.2.0] C:\Users\gustavor\.gradle\caches\9.1.0\transforms\ee9ee83afa4ddad470c7ad3a8b0260d7\workspace\transformed\firebase-auth-24.2.0\AndroidManifest.xml:38:27-73
+65                <category android:name="android.intent.category.BROWSABLE" />
+65-->[com.google.firebase:firebase-auth:24.2.0] C:\Users\gustavor\.gradle\caches\9.1.0\transforms\ee9ee83afa4ddad470c7ad3a8b0260d7\workspace\transformed\firebase-auth-24.2.0\AndroidManifest.xml:39:17-78
+65-->[com.google.firebase:firebase-auth:24.2.0] C:\Users\gustavor\.gradle\caches\9.1.0\transforms\ee9ee83afa4ddad470c7ad3a8b0260d7\workspace\transformed\firebase-auth-24.2.0\AndroidManifest.xml:39:27-75
+66
+67                <data
+67-->[com.google.firebase:firebase-auth:24.2.0] C:\Users\gustavor\.gradle\caches\9.1.0\transforms\ee9ee83afa4ddad470c7ad3a8b0260d7\workspace\transformed\firebase-auth-24.2.0\AndroidManifest.xml:41:17-44:51
+68                    android:host="firebase.auth"
+68-->[com.google.firebase:firebase-auth:24.2.0] C:\Users\gustavor\.gradle\caches\9.1.0\transforms\ee9ee83afa4ddad470c7ad3a8b0260d7\workspace\transformed\firebase-auth-24.2.0\AndroidManifest.xml:42:21-49
+69                    android:path="/"
+69-->[com.google.firebase:firebase-auth:24.2.0] C:\Users\gustavor\.gradle\caches\9.1.0\transforms\ee9ee83afa4ddad470c7ad3a8b0260d7\workspace\transformed\firebase-auth-24.2.0\AndroidManifest.xml:43:21-37
+70                    android:scheme="genericidp" />
+70-->[com.google.firebase:firebase-auth:24.2.0] C:\Users\gustavor\.gradle\caches\9.1.0\transforms\ee9ee83afa4ddad470c7ad3a8b0260d7\workspace\transformed\firebase-auth-24.2.0\AndroidManifest.xml:44:21-48
+71            </intent-filter>
+72        </activity>
+73        <activity
+73-->[com.google.firebase:firebase-auth:24.2.0] C:\Users\gustavor\.gradle\caches\9.1.0\transforms\ee9ee83afa4ddad470c7ad3a8b0260d7\workspace\transformed\firebase-auth-24.2.0\AndroidManifest.xml:47:9-64:20
+74            android:name="com.google.firebase.auth.internal.RecaptchaActivity"
+74-->[com.google.firebase:firebase-auth:24.2.0] C:\Users\gustavor\.gradle\caches\9.1.0\transforms\ee9ee83afa4ddad470c7ad3a8b0260d7\workspace\transformed\firebase-auth-24.2.0\AndroidManifest.xml:48:13-79
+75            android:excludeFromRecents="true"
+75-->[com.google.firebase:firebase-auth:24.2.0] C:\Users\gustavor\.gradle\caches\9.1.0\transforms\ee9ee83afa4ddad470c7ad3a8b0260d7\workspace\transformed\firebase-auth-24.2.0\AndroidManifest.xml:49:13-46
+76            android:exported="true"
+76-->[com.google.firebase:firebase-auth:24.2.0] C:\Users\gustavor\.gradle\caches\9.1.0\transforms\ee9ee83afa4ddad470c7ad3a8b0260d7\workspace\transformed\firebase-auth-24.2.0\AndroidManifest.xml:50:13-36
+77            android:launchMode="singleTask"
+77-->[com.google.firebase:firebase-auth:24.2.0] C:\Users\gustavor\.gradle\caches\9.1.0\transforms\ee9ee83afa4ddad470c7ad3a8b0260d7\workspace\transformed\firebase-auth-24.2.0\AndroidManifest.xml:51:13-44
+78            android:theme="@android:style/Theme.Translucent.NoTitleBar" >
+78-->[com.google.firebase:firebase-auth:24.2.0] C:\Users\gustavor\.gradle\caches\9.1.0\transforms\ee9ee83afa4ddad470c7ad3a8b0260d7\workspace\transformed\firebase-auth-24.2.0\AndroidManifest.xml:52:13-72
+79            <intent-filter>
+79-->[com.google.firebase:firebase-auth:24.2.0] C:\Users\gustavor\.gradle\caches\9.1.0\transforms\ee9ee83afa4ddad470c7ad3a8b0260d7\workspace\transformed\firebase-auth-24.2.0\AndroidManifest.xml:53:13-63:29
+80                <action android:name="android.intent.action.VIEW" />
+80-->[com.google.firebase:firebase-auth:24.2.0] C:\Users\gustavor\.gradle\caches\9.1.0\transforms\ee9ee83afa4ddad470c7ad3a8b0260d7\workspace\transformed\firebase-auth-24.2.0\AndroidManifest.xml:36:17-69
+80-->[com.google.firebase:firebase-auth:24.2.0] C:\Users\gustavor\.gradle\caches\9.1.0\transforms\ee9ee83afa4ddad470c7ad3a8b0260d7\workspace\transformed\firebase-auth-24.2.0\AndroidManifest.xml:36:25-66
+81
+82                <category android:name="android.intent.category.DEFAULT" />
+82-->[com.google.firebase:firebase-auth:24.2.0] C:\Users\gustavor\.gradle\caches\9.1.0\transforms\ee9ee83afa4ddad470c7ad3a8b0260d7\workspace\transformed\firebase-auth-24.2.0\AndroidManifest.xml:38:17-76
+82-->[com.google.firebase:firebase-auth:24.2.0] C:\Users\gustavor\.gradle\caches\9.1.0\transforms\ee9ee83afa4ddad470c7ad3a8b0260d7\workspace\transformed\firebase-auth-24.2.0\AndroidManifest.xml:38:27-73
+83                <category android:name="android.intent.category.BROWSABLE" />
+83-->[com.google.firebase:firebase-auth:24.2.0] C:\Users\gustavor\.gradle\caches\9.1.0\transforms\ee9ee83afa4ddad470c7ad3a8b0260d7\workspace\transformed\firebase-auth-24.2.0\AndroidManifest.xml:39:17-78
+83-->[com.google.firebase:firebase-auth:24.2.0] C:\Users\gustavor\.gradle\caches\9.1.0\transforms\ee9ee83afa4ddad470c7ad3a8b0260d7\workspace\transformed\firebase-auth-24.2.0\AndroidManifest.xml:39:27-75
+84
+85                <data
+85-->[com.google.firebase:firebase-auth:24.2.0] C:\Users\gustavor\.gradle\caches\9.1.0\transforms\ee9ee83afa4ddad470c7ad3a8b0260d7\workspace\transformed\firebase-auth-24.2.0\AndroidManifest.xml:41:17-44:51
+86                    android:host="firebase.auth"
+86-->[com.google.firebase:firebase-auth:24.2.0] C:\Users\gustavor\.gradle\caches\9.1.0\transforms\ee9ee83afa4ddad470c7ad3a8b0260d7\workspace\transformed\firebase-auth-24.2.0\AndroidManifest.xml:42:21-49
+87                    android:path="/"
+87-->[com.google.firebase:firebase-auth:24.2.0] C:\Users\gustavor\.gradle\caches\9.1.0\transforms\ee9ee83afa4ddad470c7ad3a8b0260d7\workspace\transformed\firebase-auth-24.2.0\AndroidManifest.xml:43:21-37
+88                    android:scheme="recaptcha" />
+88-->[com.google.firebase:firebase-auth:24.2.0] C:\Users\gustavor\.gradle\caches\9.1.0\transforms\ee9ee83afa4ddad470c7ad3a8b0260d7\workspace\transformed\firebase-auth-24.2.0\AndroidManifest.xml:44:21-48
+89            </intent-filter>
+90        </activity>
+91
+92        <service
+92-->[com.google.firebase:firebase-auth:24.2.0] C:\Users\gustavor\.gradle\caches\9.1.0\transforms\ee9ee83afa4ddad470c7ad3a8b0260d7\workspace\transformed\firebase-auth-24.2.0\AndroidManifest.xml:66:9-72:19
+93            android:name="com.google.firebase.components.ComponentDiscoveryService"
+93-->[com.google.firebase:firebase-auth:24.2.0] C:\Users\gustavor\.gradle\caches\9.1.0\transforms\ee9ee83afa4ddad470c7ad3a8b0260d7\workspace\transformed\firebase-auth-24.2.0\AndroidManifest.xml:67:13-84
+94            android:directBootAware="true"
+94-->[com.google.firebase:firebase-common:22.2.0] C:\Users\gustavor\.gradle\caches\9.1.0\transforms\f2a6db81d818d4a7658330da8eaca244\workspace\transformed\firebase-common-22.2.0\AndroidManifest.xml:32:13-43
+95            android:exported="false" >
+95-->[com.google.firebase:firebase-auth:24.2.0] C:\Users\gustavor\.gradle\caches\9.1.0\transforms\ee9ee83afa4ddad470c7ad3a8b0260d7\workspace\transformed\firebase-auth-24.2.0\AndroidManifest.xml:68:13-37
+96            <meta-data
+96-->[com.google.firebase:firebase-auth:24.2.0] C:\Users\gustavor\.gradle\caches\9.1.0\transforms\ee9ee83afa4ddad470c7ad3a8b0260d7\workspace\transformed\firebase-auth-24.2.0\AndroidManifest.xml:69:13-71:85
+97                android:name="com.google.firebase.components:com.google.firebase.auth.FirebaseAuthRegistrar"
+97-->[com.google.firebase:firebase-auth:24.2.0] C:\Users\gustavor\.gradle\caches\9.1.0\transforms\ee9ee83afa4ddad470c7ad3a8b0260d7\workspace\transformed\firebase-auth-24.2.0\AndroidManifest.xml:70:17-109
+98                android:value="com.google.firebase.components.ComponentRegistrar" />
+98-->[com.google.firebase:firebase-auth:24.2.0] C:\Users\gustavor\.gradle\caches\9.1.0\transforms\ee9ee83afa4ddad470c7ad3a8b0260d7\workspace\transformed\firebase-auth-24.2.0\AndroidManifest.xml:71:17-82
+99            <meta-data
+99-->[com.google.firebase:firebase-firestore:26.6.0] C:\Users\gustavor\.gradle\caches\9.1.0\transforms\ec30fa2b2e83bea66dc32b206bf576f0\workspace\transformed\firebase-firestore-26.6.0\AndroidManifest.xml:17:13-19:85
+100                android:name="com.google.firebase.components:com.google.firebase.firestore.FirebaseFirestoreKtxRegistrar"
+100-->[com.google.firebase:firebase-firestore:26.6.0] C:\Users\gustavor\.gradle\caches\9.1.0\transforms\ec30fa2b2e83bea66dc32b206bf576f0\workspace\transformed\firebase-firestore-26.6.0\AndroidManifest.xml:18:17-122
+101                android:value="com.google.firebase.components.ComponentRegistrar" />
+101-->[com.google.firebase:firebase-firestore:26.6.0] C:\Users\gustavor\.gradle\caches\9.1.0\transforms\ec30fa2b2e83bea66dc32b206bf576f0\workspace\transformed\firebase-firestore-26.6.0\AndroidManifest.xml:19:17-82
+102            <meta-data
+102-->[com.google.firebase:firebase-firestore:26.6.0] C:\Users\gustavor\.gradle\caches\9.1.0\transforms\ec30fa2b2e83bea66dc32b206bf576f0\workspace\transformed\firebase-firestore-26.6.0\AndroidManifest.xml:20:13-22:85
+103                android:name="com.google.firebase.components:com.google.firebase.firestore.FirestoreRegistrar"
+103-->[com.google.firebase:firebase-firestore:26.6.0] C:\Users\gustavor\.gradle\caches\9.1.0\transforms\ec30fa2b2e83bea66dc32b206bf576f0\workspace\transformed\firebase-firestore-26.6.0\AndroidManifest.xml:21:17-111
+104                android:value="com.google.firebase.components.ComponentRegistrar" />
+104-->[com.google.firebase:firebase-firestore:26.6.0] C:\Users\gustavor\.gradle\caches\9.1.0\transforms\ec30fa2b2e83bea66dc32b206bf576f0\workspace\transformed\firebase-firestore-26.6.0\AndroidManifest.xml:22:17-82
+105            <meta-data
+105-->[com.google.firebase:firebase-common:22.2.0] C:\Users\gustavor\.gradle\caches\9.1.0\transforms\f2a6db81d818d4a7658330da8eaca244\workspace\transformed\firebase-common-22.2.0\AndroidManifest.xml:35:13-37:85
+106                android:name="com.google.firebase.components:com.google.firebase.FirebaseCommonKtxRegistrar"
+106-->[com.google.firebase:firebase-common:22.2.0] C:\Users\gustavor\.gradle\caches\9.1.0\transforms\f2a6db81d818d4a7658330da8eaca244\workspace\transformed\firebase-common-22.2.0\AndroidManifest.xml:36:17-109
+107                android:value="com.google.firebase.components.ComponentRegistrar" />
+107-->[com.google.firebase:firebase-common:22.2.0] C:\Users\gustavor\.gradle\caches\9.1.0\transforms\f2a6db81d818d4a7658330da8eaca244\workspace\transformed\firebase-common-22.2.0\AndroidManifest.xml:37:17-82
+108        </service>
+109        <service
+109-->[androidx.credentials:credentials-play-services-auth:1.2.0-rc01] C:\Users\gustavor\.gradle\caches\9.1.0\transforms\26ead1d27bde1d2aa70a19bf4866e0ce\workspace\transformed\credentials-play-services-auth-1.2.0-rc01\AndroidManifest.xml:24:9-32:19
+110            android:name="androidx.credentials.playservices.CredentialProviderMetadataHolder"
+110-->[androidx.credentials:credentials-play-services-auth:1.2.0-rc01] C:\Users\gustavor\.gradle\caches\9.1.0\transforms\26ead1d27bde1d2aa70a19bf4866e0ce\workspace\transformed\credentials-play-services-auth-1.2.0-rc01\AndroidManifest.xml:25:13-94
+111            android:enabled="true"
+111-->[androidx.credentials:credentials-play-services-auth:1.2.0-rc01] C:\Users\gustavor\.gradle\caches\9.1.0\transforms\26ead1d27bde1d2aa70a19bf4866e0ce\workspace\transformed\credentials-play-services-auth-1.2.0-rc01\AndroidManifest.xml:26:13-35
+112            android:exported="false" >
+112-->[androidx.credentials:credentials-play-services-auth:1.2.0-rc01] C:\Users\gustavor\.gradle\caches\9.1.0\transforms\26ead1d27bde1d2aa70a19bf4866e0ce\workspace\transformed\credentials-play-services-auth-1.2.0-rc01\AndroidManifest.xml:27:13-37
+113            <meta-data
+113-->[androidx.credentials:credentials-play-services-auth:1.2.0-rc01] C:\Users\gustavor\.gradle\caches\9.1.0\transforms\26ead1d27bde1d2aa70a19bf4866e0ce\workspace\transformed\credentials-play-services-auth-1.2.0-rc01\AndroidManifest.xml:29:13-31:104
+114                android:name="androidx.credentials.CREDENTIAL_PROVIDER_KEY"
+114-->[androidx.credentials:credentials-play-services-auth:1.2.0-rc01] C:\Users\gustavor\.gradle\caches\9.1.0\transforms\26ead1d27bde1d2aa70a19bf4866e0ce\workspace\transformed\credentials-play-services-auth-1.2.0-rc01\AndroidManifest.xml:30:17-76
+115                android:value="androidx.credentials.playservices.CredentialProviderPlayServicesImpl" />
+115-->[androidx.credentials:credentials-play-services-auth:1.2.0-rc01] C:\Users\gustavor\.gradle\caches\9.1.0\transforms\26ead1d27bde1d2aa70a19bf4866e0ce\workspace\transformed\credentials-play-services-auth-1.2.0-rc01\AndroidManifest.xml:31:17-101
+116        </service>
+117
+118        <activity
+118-->[androidx.credentials:credentials-play-services-auth:1.2.0-rc01] C:\Users\gustavor\.gradle\caches\9.1.0\transforms\26ead1d27bde1d2aa70a19bf4866e0ce\workspace\transformed\credentials-play-services-auth-1.2.0-rc01\AndroidManifest.xml:34:9-41:20
+119            android:name="androidx.credentials.playservices.HiddenActivity"
+119-->[androidx.credentials:credentials-play-services-auth:1.2.0-rc01] C:\Users\gustavor\.gradle\caches\9.1.0\transforms\26ead1d27bde1d2aa70a19bf4866e0ce\workspace\transformed\credentials-play-services-auth-1.2.0-rc01\AndroidManifest.xml:35:13-76
+120            android:configChanges="orientation|screenSize|screenLayout|keyboardHidden"
+120-->[androidx.credentials:credentials-play-services-auth:1.2.0-rc01] C:\Users\gustavor\.gradle\caches\9.1.0\transforms\26ead1d27bde1d2aa70a19bf4866e0ce\workspace\transformed\credentials-play-services-auth-1.2.0-rc01\AndroidManifest.xml:36:13-87
+121            android:enabled="true"
+121-->[androidx.credentials:credentials-play-services-auth:1.2.0-rc01] C:\Users\gustavor\.gradle\caches\9.1.0\transforms\26ead1d27bde1d2aa70a19bf4866e0ce\workspace\transformed\credentials-play-services-auth-1.2.0-rc01\AndroidManifest.xml:37:13-35
+122            android:exported="false"
+122-->[androidx.credentials:credentials-play-services-auth:1.2.0-rc01] C:\Users\gustavor\.gradle\caches\9.1.0\transforms\26ead1d27bde1d2aa70a19bf4866e0ce\workspace\transformed\credentials-play-services-auth-1.2.0-rc01\AndroidManifest.xml:38:13-37
+123            android:fitsSystemWindows="true"
+123-->[androidx.credentials:credentials-play-services-auth:1.2.0-rc01] C:\Users\gustavor\.gradle\caches\9.1.0\transforms\26ead1d27bde1d2aa70a19bf4866e0ce\workspace\transformed\credentials-play-services-auth-1.2.0-rc01\AndroidManifest.xml:39:13-45
+124            android:theme="@style/Theme.Hidden" >
+124-->[androidx.credentials:credentials-play-services-auth:1.2.0-rc01] C:\Users\gustavor\.gradle\caches\9.1.0\transforms\26ead1d27bde1d2aa70a19bf4866e0ce\workspace\transformed\credentials-play-services-auth-1.2.0-rc01\AndroidManifest.xml:40:13-48
+125        </activity>
+126        <activity
+126-->[com.google.android.gms:play-services-auth:20.7.0] C:\Users\gustavor\.gradle\caches\9.1.0\transforms\a592d9eb2ffcf363f503d4ff2bd0203f\workspace\transformed\play-services-auth-20.7.0\AndroidManifest.xml:23:9-27:75
+127            android:name="com.google.android.gms.auth.api.signin.internal.SignInHubActivity"
+127-->[com.google.android.gms:play-services-auth:20.7.0] C:\Users\gustavor\.gradle\caches\9.1.0\transforms\a592d9eb2ffcf363f503d4ff2bd0203f\workspace\transformed\play-services-auth-20.7.0\AndroidManifest.xml:24:13-93
+128            android:excludeFromRecents="true"
+128-->[com.google.android.gms:play-services-auth:20.7.0] C:\Users\gustavor\.gradle\caches\9.1.0\transforms\a592d9eb2ffcf363f503d4ff2bd0203f\workspace\transformed\play-services-auth-20.7.0\AndroidManifest.xml:25:13-46
+129            android:exported="false"
+129-->[com.google.android.gms:play-services-auth:20.7.0] C:\Users\gustavor\.gradle\caches\9.1.0\transforms\a592d9eb2ffcf363f503d4ff2bd0203f\workspace\transformed\play-services-auth-20.7.0\AndroidManifest.xml:26:13-37
+130            android:theme="@android:style/Theme.Translucent.NoTitleBar" />
+130-->[com.google.android.gms:play-services-auth:20.7.0] C:\Users\gustavor\.gradle\caches\9.1.0\transforms\a592d9eb2ffcf363f503d4ff2bd0203f\workspace\transformed\play-services-auth-20.7.0\AndroidManifest.xml:27:13-72
+131        <!--
+132            Service handling Google Sign-In user revocation. For apps that do not integrate with
+133            Google Sign-In, this service will never be started.
+134        -->
+135        <service
+135-->[com.google.android.gms:play-services-auth:20.7.0] C:\Users\gustavor\.gradle\caches\9.1.0\transforms\a592d9eb2ffcf363f503d4ff2bd0203f\workspace\transformed\play-services-auth-20.7.0\AndroidManifest.xml:33:9-37:51
+136            android:name="com.google.android.gms.auth.api.signin.RevocationBoundService"
+136-->[com.google.android.gms:play-services-auth:20.7.0] C:\Users\gustavor\.gradle\caches\9.1.0\transforms\a592d9eb2ffcf363f503d4ff2bd0203f\workspace\transformed\play-services-auth-20.7.0\AndroidManifest.xml:34:13-89
+137            android:exported="true"
+137-->[com.google.android.gms:play-services-auth:20.7.0] C:\Users\gustavor\.gradle\caches\9.1.0\transforms\a592d9eb2ffcf363f503d4ff2bd0203f\workspace\transformed\play-services-auth-20.7.0\AndroidManifest.xml:35:13-36
+138            android:permission="com.google.android.gms.auth.api.signin.permission.REVOCATION_NOTIFICATION"
+138-->[com.google.android.gms:play-services-auth:20.7.0] C:\Users\gustavor\.gradle\caches\9.1.0\transforms\a592d9eb2ffcf363f503d4ff2bd0203f\workspace\transformed\play-services-auth-20.7.0\AndroidManifest.xml:36:13-107
+139            android:visibleToInstantApps="true" />
+139-->[com.google.android.gms:play-services-auth:20.7.0] C:\Users\gustavor\.gradle\caches\9.1.0\transforms\a592d9eb2ffcf363f503d4ff2bd0203f\workspace\transformed\play-services-auth-20.7.0\AndroidManifest.xml:37:13-48
+140
+141        <provider
+141-->[com.google.firebase:firebase-common:22.2.0] C:\Users\gustavor\.gradle\caches\9.1.0\transforms\f2a6db81d818d4a7658330da8eaca244\workspace\transformed\firebase-common-22.2.0\AndroidManifest.xml:23:9-28:39
+142            android:name="com.google.firebase.provider.FirebaseInitProvider"
+142-->[com.google.firebase:firebase-common:22.2.0] C:\Users\gustavor\.gradle\caches\9.1.0\transforms\f2a6db81d818d4a7658330da8eaca244\workspace\transformed\firebase-common-22.2.0\AndroidManifest.xml:24:13-77
+143            android:authorities="br.edu.unisenai.rangonaregua.firebaseinitprovider"
+143-->[com.google.firebase:firebase-common:22.2.0] C:\Users\gustavor\.gradle\caches\9.1.0\transforms\f2a6db81d818d4a7658330da8eaca244\workspace\transformed\firebase-common-22.2.0\AndroidManifest.xml:25:13-72
+144            android:directBootAware="true"
+144-->[com.google.firebase:firebase-common:22.2.0] C:\Users\gustavor\.gradle\caches\9.1.0\transforms\f2a6db81d818d4a7658330da8eaca244\workspace\transformed\firebase-common-22.2.0\AndroidManifest.xml:26:13-43
+145            android:exported="false"
+145-->[com.google.firebase:firebase-common:22.2.0] C:\Users\gustavor\.gradle\caches\9.1.0\transforms\f2a6db81d818d4a7658330da8eaca244\workspace\transformed\firebase-common-22.2.0\AndroidManifest.xml:27:13-37
+146            android:initOrder="100" />
+146-->[com.google.firebase:firebase-common:22.2.0] C:\Users\gustavor\.gradle\caches\9.1.0\transforms\f2a6db81d818d4a7658330da8eaca244\workspace\transformed\firebase-common-22.2.0\AndroidManifest.xml:28:13-36
+147
+148        <activity
+148-->[com.google.android.gms:play-services-base:18.9.0] C:\Users\gustavor\.gradle\caches\9.1.0\transforms\36040eb061c3925fb3b01f7cc085887e\workspace\transformed\play-services-base-18.9.0\AndroidManifest.xml:20:9-22:45
+149            android:name="com.google.android.gms.common.api.GoogleApiActivity"
+149-->[com.google.android.gms:play-services-base:18.9.0] C:\Users\gustavor\.gradle\caches\9.1.0\transforms\36040eb061c3925fb3b01f7cc085887e\workspace\transformed\play-services-base-18.9.0\AndroidManifest.xml:20:19-85
+150            android:exported="false"
+150-->[com.google.android.gms:play-services-base:18.9.0] C:\Users\gustavor\.gradle\caches\9.1.0\transforms\36040eb061c3925fb3b01f7cc085887e\workspace\transformed\play-services-base-18.9.0\AndroidManifest.xml:22:19-43
+151            android:theme="@android:style/Theme.Translucent.NoTitleBar" />
+151-->[com.google.android.gms:play-services-base:18.9.0] C:\Users\gustavor\.gradle\caches\9.1.0\transforms\36040eb061c3925fb3b01f7cc085887e\workspace\transformed\play-services-base-18.9.0\AndroidManifest.xml:21:19-78
+152
+153        <provider
+153-->[androidx.emoji2:emoji2:1.2.0] C:\Users\gustavor\.gradle\caches\9.1.0\transforms\3897a27a655a429ca7c5cc9f8d7f5c59\workspace\transformed\emoji2-1.2.0\AndroidManifest.xml:24:9-32:20
+154            android:name="androidx.startup.InitializationProvider"
+154-->[androidx.emoji2:emoji2:1.2.0] C:\Users\gustavor\.gradle\caches\9.1.0\transforms\3897a27a655a429ca7c5cc9f8d7f5c59\workspace\transformed\emoji2-1.2.0\AndroidManifest.xml:25:13-67
+155            android:authorities="br.edu.unisenai.rangonaregua.androidx-startup"
+155-->[androidx.emoji2:emoji2:1.2.0] C:\Users\gustavor\.gradle\caches\9.1.0\transforms\3897a27a655a429ca7c5cc9f8d7f5c59\workspace\transformed\emoji2-1.2.0\AndroidManifest.xml:26:13-68
+156            android:exported="false" >
+156-->[androidx.emoji2:emoji2:1.2.0] C:\Users\gustavor\.gradle\caches\9.1.0\transforms\3897a27a655a429ca7c5cc9f8d7f5c59\workspace\transformed\emoji2-1.2.0\AndroidManifest.xml:27:13-37
+157            <meta-data
+157-->[androidx.emoji2:emoji2:1.2.0] C:\Users\gustavor\.gradle\caches\9.1.0\transforms\3897a27a655a429ca7c5cc9f8d7f5c59\workspace\transformed\emoji2-1.2.0\AndroidManifest.xml:29:13-31:52
+158                android:name="androidx.emoji2.text.EmojiCompatInitializer"
+158-->[androidx.emoji2:emoji2:1.2.0] C:\Users\gustavor\.gradle\caches\9.1.0\transforms\3897a27a655a429ca7c5cc9f8d7f5c59\workspace\transformed\emoji2-1.2.0\AndroidManifest.xml:30:17-75
+159                android:value="androidx.startup" />
+159-->[androidx.emoji2:emoji2:1.2.0] C:\Users\gustavor\.gradle\caches\9.1.0\transforms\3897a27a655a429ca7c5cc9f8d7f5c59\workspace\transformed\emoji2-1.2.0\AndroidManifest.xml:31:17-49
+160            <meta-data
+160-->[androidx.lifecycle:lifecycle-process:2.6.2] C:\Users\gustavor\.gradle\caches\9.1.0\transforms\5922b41cd2844621b1a50e271bf34091\workspace\transformed\lifecycle-process-2.6.2\AndroidManifest.xml:29:13-31:52
+161                android:name="androidx.lifecycle.ProcessLifecycleInitializer"
+161-->[androidx.lifecycle:lifecycle-process:2.6.2] C:\Users\gustavor\.gradle\caches\9.1.0\transforms\5922b41cd2844621b1a50e271bf34091\workspace\transformed\lifecycle-process-2.6.2\AndroidManifest.xml:30:17-78
+162                android:value="androidx.startup" />
+162-->[androidx.lifecycle:lifecycle-process:2.6.2] C:\Users\gustavor\.gradle\caches\9.1.0\transforms\5922b41cd2844621b1a50e271bf34091\workspace\transformed\lifecycle-process-2.6.2\AndroidManifest.xml:31:17-49
+163            <meta-data
+163-->[androidx.profileinstaller:profileinstaller:1.4.0] C:\Users\gustavor\.gradle\caches\9.1.0\transforms\650a37b20bc91cb5020651feeedc99d0\workspace\transformed\profileinstaller-1.4.0\AndroidManifest.xml:29:13-31:52
+164                android:name="androidx.profileinstaller.ProfileInstallerInitializer"
+164-->[androidx.profileinstaller:profileinstaller:1.4.0] C:\Users\gustavor\.gradle\caches\9.1.0\transforms\650a37b20bc91cb5020651feeedc99d0\workspace\transformed\profileinstaller-1.4.0\AndroidManifest.xml:30:17-85
+165                android:value="androidx.startup" />
+165-->[androidx.profileinstaller:profileinstaller:1.4.0] C:\Users\gustavor\.gradle\caches\9.1.0\transforms\650a37b20bc91cb5020651feeedc99d0\workspace\transformed\profileinstaller-1.4.0\AndroidManifest.xml:31:17-49
+166        </provider>
+167
+168        <meta-data
+168-->[com.google.android.gms:play-services-basement:18.9.0] C:\Users\gustavor\.gradle\caches\9.1.0\transforms\22082e2b13a7be2268c146de7fe416a9\workspace\transformed\play-services-basement-18.9.0\AndroidManifest.xml:21:9-23:69
+169            android:name="com.google.android.gms.version"
+169-->[com.google.android.gms:play-services-basement:18.9.0] C:\Users\gustavor\.gradle\caches\9.1.0\transforms\22082e2b13a7be2268c146de7fe416a9\workspace\transformed\play-services-basement-18.9.0\AndroidManifest.xml:22:13-58
+170            android:value="@integer/google_play_services_version" />
+170-->[com.google.android.gms:play-services-basement:18.9.0] C:\Users\gustavor\.gradle\caches\9.1.0\transforms\22082e2b13a7be2268c146de7fe416a9\workspace\transformed\play-services-basement-18.9.0\AndroidManifest.xml:23:13-66
+171
+172        <receiver
+172-->[androidx.profileinstaller:profileinstaller:1.4.0] C:\Users\gustavor\.gradle\caches\9.1.0\transforms\650a37b20bc91cb5020651feeedc99d0\workspace\transformed\profileinstaller-1.4.0\AndroidManifest.xml:34:9-52:20
+173            android:name="androidx.profileinstaller.ProfileInstallReceiver"
+173-->[androidx.profileinstaller:profileinstaller:1.4.0] C:\Users\gustavor\.gradle\caches\9.1.0\transforms\650a37b20bc91cb5020651feeedc99d0\workspace\transformed\profileinstaller-1.4.0\AndroidManifest.xml:35:13-76
+174            android:directBootAware="false"
+174-->[androidx.profileinstaller:profileinstaller:1.4.0] C:\Users\gustavor\.gradle\caches\9.1.0\transforms\650a37b20bc91cb5020651feeedc99d0\workspace\transformed\profileinstaller-1.4.0\AndroidManifest.xml:36:13-44
+175            android:enabled="true"
+175-->[androidx.profileinstaller:profileinstaller:1.4.0] C:\Users\gustavor\.gradle\caches\9.1.0\transforms\650a37b20bc91cb5020651feeedc99d0\workspace\transformed\profileinstaller-1.4.0\AndroidManifest.xml:37:13-35
+176            android:exported="true"
+176-->[androidx.profileinstaller:profileinstaller:1.4.0] C:\Users\gustavor\.gradle\caches\9.1.0\transforms\650a37b20bc91cb5020651feeedc99d0\workspace\transformed\profileinstaller-1.4.0\AndroidManifest.xml:38:13-36
+177            android:permission="android.permission.DUMP" >
+177-->[androidx.profileinstaller:profileinstaller:1.4.0] C:\Users\gustavor\.gradle\caches\9.1.0\transforms\650a37b20bc91cb5020651feeedc99d0\workspace\transformed\profileinstaller-1.4.0\AndroidManifest.xml:39:13-57
+178            <intent-filter>
+178-->[androidx.profileinstaller:profileinstaller:1.4.0] C:\Users\gustavor\.gradle\caches\9.1.0\transforms\650a37b20bc91cb5020651feeedc99d0\workspace\transformed\profileinstaller-1.4.0\AndroidManifest.xml:40:13-42:29
+179                <action android:name="androidx.profileinstaller.action.INSTALL_PROFILE" />
+179-->[androidx.profileinstaller:profileinstaller:1.4.0] C:\Users\gustavor\.gradle\caches\9.1.0\transforms\650a37b20bc91cb5020651feeedc99d0\workspace\transformed\profileinstaller-1.4.0\AndroidManifest.xml:41:17-91
+179-->[androidx.profileinstaller:profileinstaller:1.4.0] C:\Users\gustavor\.gradle\caches\9.1.0\transforms\650a37b20bc91cb5020651feeedc99d0\workspace\transformed\profileinstaller-1.4.0\AndroidManifest.xml:41:25-88
+180            </intent-filter>
+181            <intent-filter>
+181-->[androidx.profileinstaller:profileinstaller:1.4.0] C:\Users\gustavor\.gradle\caches\9.1.0\transforms\650a37b20bc91cb5020651feeedc99d0\workspace\transformed\profileinstaller-1.4.0\AndroidManifest.xml:43:13-45:29
+182                <action android:name="androidx.profileinstaller.action.SKIP_FILE" />
+182-->[androidx.profileinstaller:profileinstaller:1.4.0] C:\Users\gustavor\.gradle\caches\9.1.0\transforms\650a37b20bc91cb5020651feeedc99d0\workspace\transformed\profileinstaller-1.4.0\AndroidManifest.xml:44:17-85
+182-->[androidx.profileinstaller:profileinstaller:1.4.0] C:\Users\gustavor\.gradle\caches\9.1.0\transforms\650a37b20bc91cb5020651feeedc99d0\workspace\transformed\profileinstaller-1.4.0\AndroidManifest.xml:44:25-82
+183            </intent-filter>
+184            <intent-filter>
+184-->[androidx.profileinstaller:profileinstaller:1.4.0] C:\Users\gustavor\.gradle\caches\9.1.0\transforms\650a37b20bc91cb5020651feeedc99d0\workspace\transformed\profileinstaller-1.4.0\AndroidManifest.xml:46:13-48:29
+185                <action android:name="androidx.profileinstaller.action.SAVE_PROFILE" />
+185-->[androidx.profileinstaller:profileinstaller:1.4.0] C:\Users\gustavor\.gradle\caches\9.1.0\transforms\650a37b20bc91cb5020651feeedc99d0\workspace\transformed\profileinstaller-1.4.0\AndroidManifest.xml:47:17-88
+185-->[androidx.profileinstaller:profileinstaller:1.4.0] C:\Users\gustavor\.gradle\caches\9.1.0\transforms\650a37b20bc91cb5020651feeedc99d0\workspace\transformed\profileinstaller-1.4.0\AndroidManifest.xml:47:25-85
+186            </intent-filter>
+187            <intent-filter>
+187-->[androidx.profileinstaller:profileinstaller:1.4.0] C:\Users\gustavor\.gradle\caches\9.1.0\transforms\650a37b20bc91cb5020651feeedc99d0\workspace\transformed\profileinstaller-1.4.0\AndroidManifest.xml:49:13-51:29
+188                <action android:name="androidx.profileinstaller.action.BENCHMARK_OPERATION" />
+188-->[androidx.profileinstaller:profileinstaller:1.4.0] C:\Users\gustavor\.gradle\caches\9.1.0\transforms\650a37b20bc91cb5020651feeedc99d0\workspace\transformed\profileinstaller-1.4.0\AndroidManifest.xml:50:17-95
+188-->[androidx.profileinstaller:profileinstaller:1.4.0] C:\Users\gustavor\.gradle\caches\9.1.0\transforms\650a37b20bc91cb5020651feeedc99d0\workspace\transformed\profileinstaller-1.4.0\AndroidManifest.xml:50:25-92
+189            </intent-filter>
+190        </receiver> <!-- The activities will be merged into the manifest of the hosting app. -->
+191        <activity
+191-->[com.google.android.play:core-common:2.0.3] C:\Users\gustavor\.gradle\caches\9.1.0\transforms\c6dbe401fb5bd247666ad9a66f3913b2\workspace\transformed\core-common-2.0.3\AndroidManifest.xml:14:9-18:65
+192            android:name="com.google.android.play.core.common.PlayCoreDialogWrapperActivity"
+192-->[com.google.android.play:core-common:2.0.3] C:\Users\gustavor\.gradle\caches\9.1.0\transforms\c6dbe401fb5bd247666ad9a66f3913b2\workspace\transformed\core-common-2.0.3\AndroidManifest.xml:15:13-93
+193            android:exported="false"
+193-->[com.google.android.play:core-common:2.0.3] C:\Users\gustavor\.gradle\caches\9.1.0\transforms\c6dbe401fb5bd247666ad9a66f3913b2\workspace\transformed\core-common-2.0.3\AndroidManifest.xml:16:13-37
+194            android:stateNotNeeded="true"
+194-->[com.google.android.play:core-common:2.0.3] C:\Users\gustavor\.gradle\caches\9.1.0\transforms\c6dbe401fb5bd247666ad9a66f3913b2\workspace\transformed\core-common-2.0.3\AndroidManifest.xml:17:13-42
+195            android:theme="@style/Theme.PlayCore.Transparent" />
+195-->[com.google.android.play:core-common:2.0.3] C:\Users\gustavor\.gradle\caches\9.1.0\transforms\c6dbe401fb5bd247666ad9a66f3913b2\workspace\transformed\core-common-2.0.3\AndroidManifest.xml:18:13-62
+196    </application>
+197
+198</manifest>

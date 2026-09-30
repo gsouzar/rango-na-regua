@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- Identidade visual da disciplina -->
+    <color name="verde_escuro">#0E2A1B</color>
+    <color name="verde_cartao">#17402B</color>
+    <color name="verde_android">#3DDC84</color>
+    <color name="dourado">#FFD166</color>
+    <color name="branco">#FFFFFF</color>
+    <color name="texto_suave">#A9C2B4</color>
+    <color name="fundo">#F4F7F5</color>
+    <color name="texto">#12211A</color>
+</resources>

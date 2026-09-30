@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:tools="http://schemas.android.com/tools">
+
+    <style name="Theme.RangoNaRegua" parent="Theme.MaterialComponents.Light.NoActionBar">
+        <item name="colorPrimary">@color/verde_escuro</item>
+        <item name="colorPrimaryVariant">@color/verde_escuro</item>
+        <item name="colorOnPrimary">@color/branco</item>
+        <item name="colorSecondary">@color/verde_android</item>
+        <item name="colorOnSecondary">@color/verde_escuro</item>
+        <item name="android:statusBarColor" tools:targetApi="l">@color/verde_escuro</item>
+        <item name="android:windowBackground">@color/fundo</item>
+    </style>
+
+    <style name="ToolbarVerde" parent="Widget.MaterialComponents.Toolbar.Primary">
+        <item name="android:background">@color/verde_escuro</item>
+        <item name="titleTextColor">@color/branco</item>
+        <item name="android:theme">@style/ThemeOverlay.MaterialComponents.Dark.ActionBar</item>
+    </style>
+
+</resources>

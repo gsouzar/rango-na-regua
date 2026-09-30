@@ -1,0 +1,46 @@
+[
+    {
+        "merged": "br.edu.unisenai.rangonaregua.app-debug-47:/layout_activity_login.xml.flat",
+        "source": "br.edu.unisenai.rangonaregua.app-main-49:/layout/activity_login.xml"
+    },
+    {
+        "merged": "br.edu.unisenai.rangonaregua.app-debug-47:/menu_menu_main.xml.flat",
+        "source": "br.edu.unisenai.rangonaregua.app-main-49:/menu/menu_main.xml"
+    },
+    {
+        "merged": "br.edu.unisenai.rangonaregua.app-debug-47:/drawable_ic_lancador.xml.flat",
+        "source": "br.edu.unisenai.rangonaregua.app-main-49:/drawable/ic_lancador.xml"
+    },
+    {
+        "merged": "br.edu.unisenai.rangonaregua.app-debug-47:/layout_activity_cadastro.xml.flat",
+        "source": "br.edu.unisenai.rangonaregua.app-main-49:/layout/activity_cadastro.xml"
+    },
+    {
+        "merged": "br.edu.unisenai.rangonaregua.app-debug-47:/layout_activity_novo_lugar.xml.flat",
+        "source": "br.edu.unisenai.rangonaregua.app-main-49:/layout/activity_novo_lugar.xml"
+    },
+    {
+        "merged": "br.edu.unisenai.rangonaregua.app-debug-47:/layout_item_lugar.xml.flat",
+        "source": "br.edu.unisenai.rangonaregua.app-main-49:/layout/item_lugar.xml"
+    },
+    {
+        "merged": "br.edu.unisenai.rangonaregua.app-debug-47:/layout_item_lider.xml.flat",
+        "source": "br.edu.unisenai.rangonaregua.app-main-49:/layout/item_lider.xml"
+    },
+    {
+        "merged": "br.edu.unisenai.rangonaregua.app-debug-47:/layout_activity_detalhe.xml.flat",
+        "source": "br.edu.unisenai.rangonaregua.app-main-49:/layout/activity_detalhe.xml"
+    },
+    {
+        "merged": "br.edu.unisenai.rangonaregua.app-debug-47:/drawable_fundo_selo.xml.flat",
+        "source": "br.edu.unisenai.rangonaregua.app-main-49:/drawable/fundo_selo.xml"
+    },
+    {
+        "merged": "br.edu.unisenai.rangonaregua.app-debug-47:/drawable_fundo_posicao.xml.flat",
+        "source": "br.edu.unisenai.rangonaregua.app-main-49:/drawable/fundo_posicao.xml"
+    },
+    {
+        "merged": "br.edu.unisenai.rangonaregua.app-debug-47:/layout_activity_main.xml.flat",
+        "source": "br.edu.unisenai.rangonaregua.app-main-49:/layout/activity_main.xml"
+    }
+]

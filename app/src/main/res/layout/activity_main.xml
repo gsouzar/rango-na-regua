@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.coordinatorlayout.widget.CoordinatorLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <androidx.appcompat.widget.Toolbar
+            android:id="@+id/toolbar"
+            style="@style/ToolbarVerde"
+            android:layout_width="match_parent"
+            android:layout_height="?attr/actionBarSize"
+            app:title="@string/app_name" />
+
+        <TextView
+            android:id="@+id/txtSubtitulo"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@color/verde_escuro"
+            android:paddingStart="16dp"
+            android:paddingEnd="16dp"
+            android:paddingBottom="12dp"
+            android:textColor="@color/verde_android"
+            android:textSize="13sp"
+            tools:text="8 lugares em todas as categorias" />
+
+        <FrameLayout
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="1">
+
+            <!--
+                A RecyclerView em si é só isto. Altura match_parent aqui é
+                correto: quem não pode ser match_parent é a raiz do LAYOUT DO
+                ITEM, que é outro arquivo.
+            -->
+            <androidx.recyclerview.widget.RecyclerView
+                android:id="@+id/rvLugares"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:clipToPadding="false"
+                android:paddingBottom="88dp" />
+
+            <!-- Estado vazio: faz parte da interface, não é acidente. -->
+            <LinearLayout
+                android:id="@+id/grupoVazio"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:gravity="center"
+                android:orientation="vertical"
+                android:padding="32dp"
+                android:visibility="gone">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/vazio_titulo"
+                    android:textColor="@color/texto"
+                    android:textSize="18sp"
+                    android:textStyle="bold" />
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="8dp"
+                    android:gravity="center"
+                    android:text="@string/vazio_texto"
+                    android:textColor="@color/texto_suave"
+                    android:textSize="14sp" />
+            </LinearLayout>
+        </FrameLayout>
+    </LinearLayout>
+
+    <com.google.android.material.floatingactionbutton.FloatingActionButton
+        android:id="@+id/fabNovo"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="bottom|end"
+        android:layout_margin="16dp"
+        android:contentDescription="@string/novo_titulo"
+        android:src="@android:drawable/ic_input_add"
+        app:backgroundTint="@color/verde_android"
+        app:tint="@color/verde_escuro" />
+
+</androidx.coordinatorlayout.widget.CoordinatorLayout>

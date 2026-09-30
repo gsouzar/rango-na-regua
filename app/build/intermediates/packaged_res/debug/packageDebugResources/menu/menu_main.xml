@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <item android:id="@+id/acaoLayout" android:title="@string/menu_ver_grade" app:showAsAction="never" />
+    <item android:id="@+id/acaoFiltrar" android:title="@string/menu_filtrar" app:showAsAction="never" />
+    <item android:id="@+id/acaoSair" android:title="@string/menu_sair" app:showAsAction="never" />
+</menu>
